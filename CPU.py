@@ -5,7 +5,7 @@ from datetime import datetime
 import pyodbc
 
 def mysql_connection(host,user,passwd,database=None):
-    connection = connect(
+    connection =  connect(
         host = host,
         user = user,
         passwd = passwd,
